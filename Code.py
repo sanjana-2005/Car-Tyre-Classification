@@ -13,7 +13,7 @@ import seaborn as sns
 # File path
 file_path = "C:/Users/shalu/Downloads/Vehicle tyre.csv"
 
-# Load the data
+# Load the data using panda
 df = pd.read_csv(file_path)
 df = df.fillna(0)
 
@@ -107,6 +107,6 @@ plt.plot(history.history['val_loss'], label='val_loss')
 plt.title('Model Loss')
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
-plt.legend()
+plt.legend
 plt.show()
 
